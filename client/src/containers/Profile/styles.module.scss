@@ -1,0 +1,13 @@
+:global(.ui.grid).gridContainer {
+  padding-top: 30px;
+}
+
+:global(.ui.labeled.icon.button).button {
+  position: absolute;
+  left: 4%;
+  bottom: 7%;
+}
+
+.container {
+  position: relative;
+}

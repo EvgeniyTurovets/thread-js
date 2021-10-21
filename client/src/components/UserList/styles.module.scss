@@ -1,0 +1,9 @@
+:global(.ui.list>.item).userListItem {
+  display: flex;
+  align-items: center;
+  margin: 10px;
+}
+
+:global(.ui.list>.item>.image).avatar {
+  margin-right: 5px;
+}

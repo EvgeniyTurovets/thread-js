@@ -1,0 +1,42 @@
+.headerWrp {
+  background-color: white;
+  padding: 1em 0;
+}
+
+.logoutBtn,
+.logoutBtn:hover {
+  &:global(.ui.icon.button) {
+    border: none;
+    box-shadow: none;
+  }
+}
+
+.menuBtn,
+.menuBtn:global(.ui.icon.button) {
+  color: gray;
+  &:hover {
+    color: black !important;
+  }
+}
+
+:global(.ui.header).header {
+  line-height: inherit;
+}
+
+:global(.ui.header .content).headerContent {
+  vertical-align: middle;
+}
+
+:global(.ui.button).pen {
+  background: none;
+  &:hover {
+    background: none;
+  }
+  &:focus {
+    background: none;
+  }
+}
+
+:global(.ui.action.input>.button).submit {
+  padding: 5px;
+}

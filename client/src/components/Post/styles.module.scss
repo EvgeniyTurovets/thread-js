@@ -1,0 +1,12 @@
+:global(.ui.basic.label).toolbarBtn {
+  border: none
+}
+
+:global(.ui.list>.item).userListItem {
+  display: flex;
+  align-items: center;
+}
+
+:global(.ui.list>.item>.image).avatar {
+  margin-right: 5px;
+}
